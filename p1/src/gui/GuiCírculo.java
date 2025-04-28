@@ -140,7 +140,7 @@ public class GuiCírculo extends JDialog implements ActionListener {
 		}
 		else {
 			double radio = Double.parseDouble(txtRadio.getText());
-			Círculo ci=new Círculo(radio);
+			Círculo ci=new Círculo(radio); //Holaaaaaa
 			txtArea.setText(""+ci.Área());
 			txtLongitud.setText(""+ci.Longitud());
 			txtS.append(ci.Mensaje());
